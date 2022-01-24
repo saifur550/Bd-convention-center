@@ -50,10 +50,6 @@ a{text-decoration: none;}
     transition: 0.5s ;
 }
 
-.msg {
-	max-width: 600px;
-	height: 30vh;
-}
 
 @media (max-width: 768px) { 
     .banner {
@@ -73,10 +69,7 @@ a{text-decoration: none;}
     transition: 0.5s ;
 }
 
-.msg {
-	max-width: 80vw;
-	height: 20vh;
-}
+
 
 }
 @media (max-width: 480.98px) { 
@@ -98,10 +91,6 @@ a{text-decoration: none;}
     transition: 0.5s ;
 }
 
-.msg {
-	max-width: 80vw;
-	height: 20vh;
-}
 
  }
 
