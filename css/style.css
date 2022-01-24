@@ -50,6 +50,11 @@ a{text-decoration: none;}
     transition: 0.5s ;
 }
 
+.msg {
+	max-width: 600px;
+	height: 30vh;
+}
+
 @media (max-width: 768px) { 
     .banner {
         height: 50vh;
@@ -66,6 +71,11 @@ a{text-decoration: none;}
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s ;
+}
+
+.msg {
+	max-width: 80vw;
+	height: 20vh;
 }
 
 }
@@ -86,6 +96,11 @@ a{text-decoration: none;}
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s ;
+}
+
+.msg {
+	max-width: 80vw;
+	height: 20vh;
 }
 
  }
