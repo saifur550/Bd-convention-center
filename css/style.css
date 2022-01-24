@@ -4,6 +4,8 @@ a{
 
 
 
+
+
 .banner {
     filter: opacity(60%);
   }
@@ -44,10 +46,11 @@ a{
     }
 
 .item:hover{
-    background-color: #EEF2FF;
+    background-color: #323643;
     transform: scaleY(1.1);
     padding: 10px;
     border-radius: 10px;
+    transition: 0.5s ;
 }
 
 }
@@ -65,10 +68,11 @@ a{
     }
 
 .item:hover{
-    background-color: #EEF2FF;
+    background-color: #323643;
     transform: scaleY(1.1);
     padding: 10px;
     border-radius: 10px;
+    transition: 0.5s ;
 }
 
 
