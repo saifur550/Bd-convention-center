@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+}
+
+
+
+.banner {
+    filter: opacity(60%);
+  }
+
+
+  .card-body {
+   
+    padding: 1rem 0rem;
+}
+
+.price {
+    transition: 0.5s ;
+}
+
+.bg-custom{
+    background-color: coral;
+}
+
+
+.item:hover{
+    background-color: #323643;
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s ;
+}
+
+
+@media (max-width: 768px) { 
+    .banner {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .item{
+        margin-bottom: 4rem;
+    }
+
+.item:hover{
+    background-color: #EEF2FF;
+    transform: scaleY(1.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+}
+
+
+@media (max-width: 480.98px) { 
+
+
+    .banner {
+        height: 50vh;
+        object-fit: cover;
+    }
+  .item{
+        margin-bottom: 4rem;
+    }
+
+.item:hover{
+    background-color: #EEF2FF;
+    transform: scaleY(1.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+ }
+
+

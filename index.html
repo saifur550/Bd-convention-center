@@ -1,181 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./icons/wedding-58.png" type="image/x-icon">
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>A happy marriage is the union of two good forgivers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./icons/wedding-58.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/cec1ef83c8.js" crossorigin="anonymous"></script>
+  <title>A happy marriage is the union of two good forgivers</title>
 </head>
+
 <body>
-    
-        <header>
-            <!-- menu area -->
-          <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F6F5F5;">
-              <div class="container">
-                <a href="" class="navbar-brand ">
-                    <span class="text-black">Colorado Convention Center</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-      
-                <div class="collapse navbar-collapse" id="navMenu">
-                  <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a href="" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#shoes" class="nav-link">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#bagpack" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#sub" class="nav-link">Subscribe</a>
-                    </li>
-                  </ul>
+
+  <header>
+    <!-- menu area -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F6F5F5;">
+      <div class="container">
+        <a href="" class="navbar-brand ">
+          <span class="text-black">Colorado Convention Center</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#shoes" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#bagpack" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sub" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Menu Area -->
+    <!-- Start banner section -->
+    <section class="banner_section">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/banner00.png" class="d-block w-100 banner" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5 class="text-white fw-bold display-3">The perfect venue for your <br>
+                next event</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-secondary"><a href="https://bdwedding.com/vendors/venues/dhaka/" target="_blank">Book Now</a></button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/banner001.png" class="d-block w-100 banner" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner.png" class="d-block w-100 banner " alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- End Banner section -->
+    </section>
+  </header>
+
+  <main>
+    <section class="container text-center">
+      <h1 class="py-5">Our package</h1>
+    </section>
+
+    <div class="container ">
+      <div class="row py-5">
+        <div class="col-lg-3 col-md-6 price">
+          <div class="card item border-0">
+           
+           <h3 class="">$300</h3>
+           <h3 class="fw-bolder ">Business fair</h3>
+            <div class="card-body ">
+              <h6 class="text-start">For most businesses event like book fair, craft fair.</h6>
+             <p> <i class="fas fa-check"></i></i> limited space access </p>
+             <p> <i class="fas fa-check"></i></i> Secuirty facility </p>
+             <p> <i class="fas fa-check"></i></i> event support </p>
+             <p> <i class="fas fa-check"></i></i> Decoration design </p>
+             <p> <i class="fas fa-check"></i></i> Per day bill </p>
+             
+             <div class="text-center bg-custom rounded-3 py-1 ">
+              <a href="#" class="btn text-white  ">Choose plan</a>
+             </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 price">
+          <div class="card item border-0">
+           <h3 class="">$300</h3>
+           <h3 class="fw-bolder ">wedding basic</h3>
+            <div class="card-body ">
+              <h6 class="text-start">For weddings with basic plan
+                and limited item</h6>
+             <p> <i class="fas fa-check"></i></i> Full space access </p>
+             <p> <i class="fas fa-check"></i></i> aFood arrangement </p>
+             <p> <i class="fas fa-check"></i></i> mangement support </p>
+             <p> <i class="fas fa-check"></i></i> Decoration design </p>
+             <p> <i class="fas fa-check"></i></i> Billed as shift </p>
+            
+             <div class="text-center bg-custom rounded-3 py-1 ">
+              <a href="#" class="btn text-white  ">Choose plan</a>
+             </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 price">
+          <div class="card item border-0">
+           <h3 class="">$800</h3>
+           <h3 class="fw-bolder ">Wedding plus</h3>
+            <div class="card-body ">
+              <h6 class="text-start">For most weddings with premium plans.</h6>
+             <p> <i class="fas fa-check"></i></i> Full space access </p>
+             <p> <i class="fas fa-check"></i></i> Dedicated team </p>
+             <p> <i class="fas fa-check"></i></i> Buffet food </p>
+             <p> <i class="fas fa-check"></i></i> premium Decoration </p>
+             <p> <i class="fas fa-check"></i></i> pay as plan </p>
+           
+             <div class="text-center bg-custom rounded-3 py-1 ">
+              <a href="#" class="btn text-white  ">Choose plan</a>
+             </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 price">
+          <div class="card item border-0">
+           <h3 class="">$1300</h3>
+           <h3 class="fw-bolder ">Corporate event</h3>
+            <div class="card-body ">
+              <h6 class="text-start">For most corporate business events</h6>
+             <p> <i class="fas fa-check"></i></i> Full space access </p>
+             <p> <i class="fas fa-check"></i></i> Dedicated team </p>
+             <p> <i class="fas fa-check"></i></i> premium Decoration </p>
+             <p> <i class="fas fa-check"></i></i> pay as plan </p>
+             <p> <i class="fas fa-check"></i></i> mangement support </p>
+             <div class="text-center bg-custom rounded-3 py-1 ">
+              <a href="#" class="btn text-white  ">Choose plan</a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+    <!-- Start Frequently asked question  section -->
+    <section class="frequently__asked__section pt-5 pb-5">
+      <div class="container">
+        <div class="section__title text-center mt-5 mb-5">
+          <h1 class="faq" style="color: coral;">FAQ </h1>
+          <h2 class="frequently__asked__title fw-bold"> Find answers to common <span class="color">Questions. </span>
+          </h2>
+        </div>
+        <div class="row d-flex py-5 align-items-center">
+
+          <div class="col-lg-6 col-md-6 col-12 mt-5 order-lg-0 ">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Can I keep my children with me for free ?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Yes. Up to 2 (two) guest children under 5 years can stay and have breakfast for free.
+                  </div>
                 </div>
               </div>
-            </nav>
-            <!-- End Menu Area -->
-            <!-- Start banner section -->
-            <section class="banner_section">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./images/banner00.png" class="d-block w-100 banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5 class="text-white fw-bolder">The perfect venue for your <br>
-                            next event</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
-                          <button class="btn btn-secondary"><a href="">Book Now</a></button>
-                        </div>
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./images/banner001.png" class="d-block w-100 banner" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Second slide label</h5>
-                          <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./images/banner.png" class="d-block w-100 " alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Third slide label</h5>
-                          <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    When are the times for check-in and check-out ?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Check-in time is at 02:00 PM and check-out time is 12 noon. Late check-out can be done till 2:00 PM
+                    without any extra charge. Half-day’s charge shall be applicable for check-out between 2:00 PM & 6:00
+                    PM. After 6:00 PM, a full day’s charge shall be applicable. Charges for early check-in & late
+                    check-out may be waved depending on room availability. Guests are advised to discuss in advance with
+                    reception in this regard.
                   </div>
-                  <!-- End Banner section -->
-            </section>
-            </header>
-
-        <main>
-                <!-- Start Frequently asked question  section -->
-        <section class="frequently__asked__section pt-5 pb-5">
-            <div class="container">
-                <div class="section__title text-center mt-5 mb-5">
-                  <h1 class="faq" style="color: coral;">FAQ </h1>
-                    <h2 class="frequently__asked__title fw-bold">  Find answers to common  <span class="color" >Questions. </span></h2>
                 </div>
-                <div class="row py-5 align-items-center">
-                   
-                    <div class="col-lg-6 col-md-6 col-12 mt-5">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item mb-4">
-                              <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Can I keep my children with me for free ?
-                                </button>
-                              </h2>
-                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Yes. Up to 2 (two) guest children under 5 years can stay and have breakfast for free.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item mb-4">
-                              <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  When are the times for check-in and check-out ?
-                                </button>
-                              </h2>
-                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Check-in time is at 02:00 PM and check-out time is 12 noon. Late check-out can be done till 2:00 PM without any extra charge. Half-day’s charge shall be applicable for check-out between 2:00 PM & 6:00 PM. After 6:00 PM, a full day’s charge shall be applicable. Charges for early check-in & late check-out may be waved depending on room availability. Guests are advised to discuss in advance with reception in this regard.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item mb-4">
-                              <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  How many additional beds can I put in my room ?
-                                </button>
-                              </h2>
-                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Our Double, Twin & Executive Suite rooms can accommodate up to one extra bed. Charge will be BDT 2,000.00 (net) per night.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item mb-4">
-                              <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  Are there any membership facilities available for frequent guests ?
-                                </button>
-                              </h2>
-                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  We do not have any membership program yet but in the near future we may launch this. However, as we store records of our guests for some time, frequent guests will surely get preferential treatment.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item mb-4">
-                              <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  What payment options do you accept ?
-                                </button>
-                              </h2>
-                              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  We accept the following modes of payment:
-                                  1. VISA.
-                                  2. MasterCard.
-                                  3. AMEX.
-                                  4. JCB.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-12">
-                        <div class="img__content ">
-                            <img src="./images/faq.jpg" alt="" class="img-fluid ms-auto">
-                        </div>
-                    </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How many additional beds can I put in my room ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Our Double, Twin & Executive Suite rooms can accommodate up to one extra bed. Charge will be BDT
+                    2,000.00 (net) per night.
+                  </div>
                 </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Are there any membership facilities available for frequent guests ?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We do not have any membership program yet but in the near future we may launch this. However, as we
+                    store records of our guests for some time, frequent guests will surely get preferential treatment.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    What payment options do you accept ?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We accept the following modes of payment:
+                    1. VISA.
+                    2. MasterCard.
+                    3. AMEX.
+                    4. JCB.
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- End Frequently asked question  section -->
-            </main>
+          </div>
+          <div class="col-lg-5 col-md-6 col-12">
+            <div class="img__content ">
+              <img src="./images/faq.jpg" alt="" class="img-fluid ms-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Frequently asked question  section -->
+  </main>
 
-    <!--  Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--  Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
